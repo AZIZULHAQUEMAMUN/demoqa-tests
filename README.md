@@ -1,8 +1,7 @@
 # DemoQA Practice Form Automation Tests
 
 This project contains automated UI test cases for the **DemoQA Practice Form**
-using **Selenium WebDriver**, **Python**, and **PyTest** following the
-**Page Object Model (POM)** design pattern.
+using **Selenium WebDriver**, **Python**, and **PyTest** 
 
 The goal of this project is to demonstrate real-world QA automation practices
 including structured test cases, reusable page objects, and browser fixtures.
@@ -13,25 +12,8 @@ including structured test cases, reusable page objects, and browser fixtures.
 - **Language:** Python
 - **Automation Tool:** Selenium WebDriver
 - **Test Framework:** PyTest
-- **Design Pattern:** Page Object Model (POM)
 - **Browser:** Google Chrome
 - **Version Control:** Git & GitHub
-
----
-
-## 📂 Project Structure
-demoqa-tests/
-│
-├── pages/
-│ └── practice_form_page.py
-│
-├── tests/
-│ └── test_practice_form.py
-│
-├── conftest.py
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 ---
 
@@ -45,5 +27,6 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
+
 
 
